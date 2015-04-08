@@ -1,0 +1,31 @@
+{
+  "name": "jstransformer-jsx",
+  "version": "0.0.1",
+  "description": "JSX support for JS Transformers.",
+  "keywords": [
+    "jstransformer",
+    "jsx"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "react-tools": "^0.13.1"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.5"
+  },
+  "scripts": {
+    "test": "node test",
+    "coverage": "istanbul cover test",
+    "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls"
+  },
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jstransformers/jstransformer-jsx.git"
+  },
+  "author": "Christoph Hermann <schtoeffel@gmail.com>"
+}
