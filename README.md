@@ -1,5 +1,7 @@
 # jstransformer-jsx
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-jsx.svg)](https://greenkeeper.io/)
+
 [JSX](https://www.npmjs.com/package/react-tools#jsx) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-jsx/master.svg)](https://travis-ci.org/jstransformers/jstransformer-jsx)
