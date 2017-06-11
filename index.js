@@ -1,6 +1,6 @@
 'use strict'
 
-var jsx = require('react-tools')
+const jsx = require('react-tools')
 
 exports.name = 'jsx'
 exports.outputFormat = 'js'
