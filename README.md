@@ -15,7 +15,7 @@
 ## API
 
 ```js
-var jsx = require('jstransformer')(require('jstransformer-jsx'));
+var jsx = require('jstransformer')(require('jstransformer-jsx'))
 
 jsx.renderFile('example.jsx').body
 //=> Compiled JSX as JavaScript
